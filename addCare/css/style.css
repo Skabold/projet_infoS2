@@ -1,0 +1,187 @@
+/* ----------------------- general -------------------------- */
+h1, h2, h3 {
+	margin:0;
+	padding:0;
+	font-size:32px;
+	font-weight:normal;
+	font-style:italic;
+	line-height:normal;
+}
+h4, h5, h6 {
+	margin:0;
+	padding:0;
+	font-size:16px;
+	font-weight:normal;
+	font-style:italic;
+	line-height:normal;
+	}
+
+body {
+	margin:0;
+	padding:0;
+	font-size:13px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#919191;
+	background-color: #3d3d3d;
+
+}
+header, footer {
+
+	background-color: #3d3d3d;
+}
+
+img {
+	margin:0;
+	padding:0;
+	border:none;
+	line-height:normal;
+	vertical-align:middle;
+}
+input, textarea, select {
+	font-size:12px;
+	font-family:Georgia,"Times New Roman",Times,serif;
+}
+
+a {
+	outline:none;
+	text-decoration:none;
+}
+tml{overflow-y:scroll;} /* Forces a scrollbar when the viewport is larger than the websites content - CSS3 */
+
+
+/*autre stuff*/
+form, fieldset, legend{ margin:0; padding:0; border:none; }
+legend{ display:none; }
+input, textarea, select{ font-size:12px; font-family:Georgia,"Times New Roman",Times,serif; }
+
+
+
+/*---------------------------------------------- bande pour footer header ou autre ---------------------------------------------- */
+#header, #footer {
+	display:block;
+	width:960px;
+	margin:0 auto;
+}
+#container {
+	color:#C0BAB6;
+	background-color:#232323;
+	display:block;
+	margin:0 auto;
+}
+
+/*----------------------------------------------Header et title et footer-------------------------------------*/
+
+#header{
+	padding:20px;
+}
+
+#header #hgroup {
+	float:left;
+	margin:0 0 20px;
+	}
+#header #hgroup h1, #header #hgroup h2 {
+	font-weight:normal;
+	font-style:normal;
+	text-transform:none;
+}
+#header #hgroup h1 {
+	font-size:36px;
+}
+#header #hgroup h2 {
+	font-size:13px;
+}
+
+#header nav{
+	display:block;
+	float:right;
+	margin:10px;
+	padding:10px
+	color:#C0BAB6;
+	background-color:#232323;
+ }
+
+#footer nav {
+	display:block;
+	float:center;
+	margin:20px;
+	padding:20px
+	color:#C0BAB6;
+	background-color:#232323;
+
+} 
+#header nav ul, #footer nav ul {
+	padding:0 20px;
+}
+#header nav li, #footer nav ul li {
+	display:inline;
+	margin-right:25px;
+	text-transform:uppercase;
+}
+#header nav li a, #header a , #footer nav li a, #footer a{
+	color:#C0BAB6;
+	
+}
+#header nav li a:hover, #header a:hover, #footer nav li a:hover, #footer a:hover {
+	color:#FF9900;
+	
+}
+
+
+#footer {
+	padding:30px 0;
+	font-size:12px;
+	line-height:1.4em;
+}
+
+/*----------------------------------------------GetStarted-------------------------------------*/
+#GetStarted {
+	padding: 20em 0 20em 0;
+	width: 100%;
+	text-align: center;
+}
+
+#GetStarted a {
+	color:#C0BAB6;
+	background-color:#232323;
+}
+#GetStarted a:hover {
+	color:#FF9900;
+	background-color:#232323;
+}
+
+/*----------------------------------------------SignMenu-------------------------------------*/
+#SignMenu {
+	padding: 12em 0 12em 0;
+	width: 100%;
+	text-align: center;
+}
+#SignMenu h4, h5, h6 {
+	padding: 0em 0 1em 0;
+
+}
+#SignMenu #SignChoice {
+	padding: 2em 0 2em 0;
+
+}
+
+/*---------------------------------------------- leaderboard -------------------------------------*/
+#leaderboard {
+	color:#C0BAB6;
+	background-color:#232323;
+	display:block;
+	margin:0 auto;
+	padding-top: 1em;
+
+}
+/*---------------------------------------------- contactUs -------------------------------------*/
+#contactUs {
+/*a faire*/
+
+}
+/*---------------------------------------------- loginForm -------------------------------------*/
+#loginForm {
+/*a faire*/
+
+}
+
+
