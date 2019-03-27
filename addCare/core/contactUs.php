@@ -47,7 +47,7 @@ $bdd = new PDO('mysql:host=localhost;dbname=addcare','root','');
                 <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
                 <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
 
                 <input type="submit" value="Submit">
 

@@ -29,6 +29,7 @@ if(isset($_POST['register'])) {
     $passwordR = sha1($_POST['passwordR']);
     $donation = 0;
     $email = $_POST['email'];
+    $admin='0';
 
     $usernamerlength = strlen($usernameR);
     if($usernamerlength <= 20) 
@@ -41,8 +42,8 @@ if(isset($_POST['register'])) {
             if($userexist ==0) 
                 {
                     //Create the user (commit informations in the userinfo table)
-                    $insertuserinfo = $bdd->prepare("INSERT INTO userinfo(username,password,donation,email) VALUES(?,?,?,?)");
-                    $insertuserinfo ->execute(array($usernameR,$passwordR,$donation,$email));
+                    $insertuserinfo = $bdd->prepare("INSERT INTO userinfo(username,password,donation,email,admin) VALUES(?,?,?,?,?)");
+                    $insertuserinfo ->execute(array($usernameR,$passwordR,$donation,$email,$admin));
 
 
                  
